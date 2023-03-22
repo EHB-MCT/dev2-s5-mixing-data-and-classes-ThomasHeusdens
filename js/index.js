@@ -1,15 +1,12 @@
 "use strict";
 
-const app = {
-    items: [],
-    init() {
-    },
-    getData() {
-    },
-    onSearch() {
-    },
-    render(message) {
-    }
+import Joke from "./joke.js";
 
-}
-app.init()
+const app = {
+	items: [],
+	init() {},
+	getData() {},
+	onSearch() {},
+	render(message) {},
+};
+app.init();
